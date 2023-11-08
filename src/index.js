@@ -1,8 +1,8 @@
-// console.log('Hello from src/index.js');
+import menu from './menu.js';
+import contact from './contact.js';
 
 const body = document.querySelector('body');
 body.setAttribute('style', 'font-style: italic; text-align: center; background-color: lightyellow;');
-
 
 const content = document.querySelector('div#content');
 
@@ -24,3 +24,6 @@ const copy = document.createElement('h2');
 copy.textContent = '"Where food and happiness come together."';
 content.appendChild(copy);
 
+// Append menu and contact items
+content.appendChild(menu());
+content.appendChild(contact());
