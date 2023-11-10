@@ -16,7 +16,7 @@ function Home() {
 
     // Create and append image
     const image = document.createElement('img');
-    image.setAttribute('src', '../src/images/restaurant-image');
+    image.setAttribute('src', './images/restaurant-image');
     image.setAttribute('alt', 'People laughing at dinner table.');
     image.setAttribute('width', '600px');
     image.setAttribute('height', 'auto');
